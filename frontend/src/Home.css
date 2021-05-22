@@ -1,0 +1,105 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: flex-end;
+}
+
+img.icon {
+    display: inline;
+    vertical-align: middle;
+    width: auto;
+    height: 30px;
+    padding-right: 20px;
+}
+
+span {
+    align-self: center;
+}
+
+.icon {
+    text-align: start;
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    width: 383px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.kg {
+    font-size: 24px;
+    color: grey;
+}
+
+#chart {
+    width: 97%;
+}
+
+.date-card {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    overflow: hidden;
+    height: fit-content;
+    padding: 12px;
+    margin-right: 20px;
+}
+
+.card-container>:nth-child(1){
+    width: fit-content;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 30px;
+        align-items: baseline;
+    }
+
+    .card, #chart {
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .date-card {
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid black;
+        overflow: hidden;
+        height: fit-content;
+        padding: 12px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 315px;
+    }
+}
+
+.date-picker {
+    width: 50%;
+}
+
