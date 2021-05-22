@@ -68,9 +68,9 @@ p {
     margin-right: 20px;
 }
 
-.card-container>:nth-child(1){
+/* .card-container>:nth-child(1){
     width: fit-content;
-}
+} */
 
 @media only screen and (max-width: 1000px) {
     .card-container {
@@ -83,7 +83,7 @@ p {
 
     .card, #chart {
         margin-bottom: 20px;
-        width: 315px;
+        width: 300px;
     }
 
     .date-card {
