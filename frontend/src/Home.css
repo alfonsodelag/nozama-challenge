@@ -83,7 +83,7 @@ p {
 
     .card, #chart {
         margin-bottom: 20px;
-        width: 300px;
+        width: 315px;
     }
 
     .date-card {
@@ -95,7 +95,6 @@ p {
         padding: 12px;
         margin-right: 0;
         margin-bottom: 20px;
-        width: 315px;
     }
 }
 

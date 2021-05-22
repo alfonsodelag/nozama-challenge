@@ -72,7 +72,7 @@ export default function Home() {
         <div className="home">
             <div className="card-container">
 
-                <div class="home-card date-card">
+                <div class="date-card">
                     <DatePicker className="date-picker" selected={startDate} onChange={date => setStartDate(date)} />
                     <span>{moment(startDate).format("LLLL")}</span>
 
